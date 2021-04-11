@@ -3,13 +3,13 @@ from aiohttp import web
 from base import BaseDaemon
 
 
-class LBCDaemon(BaseDaemon):
+class LBRYDaemon(BaseDaemon):
     name = "LBC"
     electrum = electrum
     DEFAULT_PORT = 5005
 
 
-daemon = LBCDaemon()
+daemon = LBRYDaemon()
 
 app = web.Application()
 daemon.configure_app(app)
