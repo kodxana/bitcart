@@ -300,5 +300,10 @@
         "name": "BSTY",
         "divisibility": 8,
         "crypto": true
+    },
+        "LBC": {
+        "name": "LBRY Credits",
+        "divisibility": 8,
+        "crypto": true
     }
 }
